@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { Facebook, Instagram, Linkedin, Twitter, Phone, Mail, MapPin, ArrowRight } from 'lucide-react'
 
 export function Footer() {
@@ -18,9 +19,9 @@ export function Footer() {
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="flex-1 px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white placeholder:text-white/50 focus:outline-none focus:ring-2 focus:ring-[#FF6B00]"
+                className="flex-1 px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white placeholder:text-white/50 focus:outline-none focus:ring-2 focus:ring-[#DFA154]"
               />
-              <button className="bg-gradient-to-r from-[#FF6B00] to-[#FFA500] text-white px-6 py-3 rounded-lg font-semibold hover:shadow-lg transition-all flex items-center gap-2">
+              <button className="bg-gradient-to-r from-[#DFA154] to-[#c88d45] text-white px-6 py-3 rounded-lg font-semibold hover:shadow-lg transition-all flex items-center gap-2">
                 Subscribe <ArrowRight className="w-4 h-4" />
               </button>
             </div>
@@ -34,11 +35,15 @@ export function Footer() {
           {/* Company Info */}
           <div className="md:col-span-1">
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-12 h-12 bg-gradient-to-br from-[#FF6B00] to-[#FFA500] rounded-lg flex items-center justify-center text-white font-bold text-lg shadow-lg">
-                XY
-              </div>
+              <Image 
+                src="/developers/dark.png"
+                alt="NAR Properties Logo"
+                width={48}
+                height={48}
+                className="w-12 h-12 object-contain"
+              />
               <div>
-                <span className="font-bold text-lg block leading-tight" style={{fontFamily: 'Playfair Display, serif'}}>X & Y Property</span>
+                <span className="font-bold text-lg block leading-tight" style={{fontFamily: 'Playfair Display, serif'}}>NAR Properties</span>
                 <span className="text-xs text-white/60">Premium Real Estate</span>
               </div>
             </div>
@@ -46,16 +51,16 @@ export function Footer() {
               Your trusted partner in UAE real estate. We deliver exceptional service and results.
             </p>
             <div className="flex gap-3">
-              <a href="#" className="w-10 h-10 rounded-full bg-white/10 hover:bg-[#FF6B00] flex items-center justify-center transition-all hover:scale-110">
+              <a href="#" className="w-10 h-10 rounded-full bg-white/10 hover:bg-[#DFA154] flex items-center justify-center transition-all hover:scale-110">
                 <Facebook className="w-5 h-5" />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-white/10 hover:bg-[#FF6B00] flex items-center justify-center transition-all hover:scale-110">
+              <a href="#" className="w-10 h-10 rounded-full bg-white/10 hover:bg-[#DFA154] flex items-center justify-center transition-all hover:scale-110">
                 <Instagram className="w-5 h-5" />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-white/10 hover:bg-[#FF6B00] flex items-center justify-center transition-all hover:scale-110">
+              <a href="#" className="w-10 h-10 rounded-full bg-white/10 hover:bg-[#DFA154] flex items-center justify-center transition-all hover:scale-110">
                 <Linkedin className="w-5 h-5" />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-white/10 hover:bg-[#FF6B00] flex items-center justify-center transition-all hover:scale-110">
+              <a href="#" className="w-10 h-10 rounded-full bg-white/10 hover:bg-[#DFA154] flex items-center justify-center transition-all hover:scale-110">
                 <Twitter className="w-5 h-5" />
               </a>
             </div>
@@ -65,11 +70,11 @@ export function Footer() {
           <div>
             <h4 className="font-bold text-lg mb-4">Quick Links</h4>
             <ul className="space-y-3 text-sm">
-              <li><Link href="/" className="text-white/70 hover:text-[#FF6B00] transition flex items-center gap-2 group"><ArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" /> Home</Link></li>
-              <li><Link href="/about" className="text-white/70 hover:text-[#FF6B00] transition flex items-center gap-2 group"><ArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" /> About Us</Link></li>
-              <li><Link href="/services" className="text-white/70 hover:text-[#FF6B00] transition flex items-center gap-2 group"><ArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" /> Services</Link></li>
-              <li><Link href="/properties" className="text-white/70 hover:text-[#FF6B00] transition flex items-center gap-2 group"><ArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" /> Properties</Link></li>
-              <li><Link href="/team" className="text-white/70 hover:text-[#FF6B00] transition flex items-center gap-2 group"><ArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" /> Our Team</Link></li>
+              <li><Link href="/" className="text-white/70 hover:text-[#DFA154] transition flex items-center gap-2 group"><ArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" /> Home</Link></li>
+              <li><Link href="/about" className="text-white/70 hover:text-[#DFA154] transition flex items-center gap-2 group"><ArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" /> About Us</Link></li>
+              <li><Link href="/services" className="text-white/70 hover:text-[#DFA154] transition flex items-center gap-2 group"><ArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" /> Services</Link></li>
+              <li><Link href="/properties" className="text-white/70 hover:text-[#DFA154] transition flex items-center gap-2 group"><ArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" /> Properties</Link></li>
+              <li><Link href="/team" className="text-white/70 hover:text-[#DFA154] transition flex items-center gap-2 group"><ArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" /> Our Team</Link></li>
             </ul>
           </div>
 
@@ -77,11 +82,11 @@ export function Footer() {
           <div>
             <h4 className="font-bold text-lg mb-4">Our Services</h4>
             <ul className="space-y-3 text-sm">
-              <li><Link href="/services" className="text-white/70 hover:text-[#FF6B00] transition flex items-center gap-2 group"><ArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" /> Property Sales</Link></li>
-              <li><Link href="/services" className="text-white/70 hover:text-[#FF6B00] transition flex items-center gap-2 group"><ArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" /> Leasing Services</Link></li>
-              <li><Link href="/services" className="text-white/70 hover:text-[#FF6B00] transition flex items-center gap-2 group"><ArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" /> Investment Advisory</Link></li>
-              <li><Link href="/services" className="text-white/70 hover:text-[#FF6B00] transition flex items-center gap-2 group"><ArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" /> Off-Plan Projects</Link></li>
-              <li><Link href="/services" className="text-white/70 hover:text-[#FF6B00] transition flex items-center gap-2 group"><ArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" /> Property Management</Link></li>
+              <li><Link href="/services" className="text-white/70 hover:text-[#DFA154] transition flex items-center gap-2 group"><ArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" /> Property Sales</Link></li>
+              <li><Link href="/services" className="text-white/70 hover:text-[#DFA154] transition flex items-center gap-2 group"><ArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" /> Leasing Services</Link></li>
+              <li><Link href="/services" className="text-white/70 hover:text-[#DFA154] transition flex items-center gap-2 group"><ArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" /> Investment Advisory</Link></li>
+              <li><Link href="/services" className="text-white/70 hover:text-[#DFA154] transition flex items-center gap-2 group"><ArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" /> Off-Plan Projects</Link></li>
+              <li><Link href="/services" className="text-white/70 hover:text-[#DFA154] transition flex items-center gap-2 group"><ArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" /> Property Management</Link></li>
             </ul>
           </div>
 
@@ -90,16 +95,16 @@ export function Footer() {
             <h4 className="font-bold text-lg mb-4">Get In Touch</h4>
             <ul className="space-y-4 text-sm">
               <li className="flex items-start gap-3 text-white/70">
-                <MapPin className="w-5 h-5 text-[#FF6B00] flex-shrink-0 mt-0.5" />
-                <span>Business Bay, Dubai<br />United Arab Emirates</span>
+                <MapPin className="w-5 h-5 text-[#DFA154] flex-shrink-0 mt-0.5" />
+                <span>Najda Street, Al Khazna Tower, 702,<br />Abu Dhabi, UAE</span>
               </li>
               <li className="flex items-center gap-3 text-white/70">
-                <Phone className="w-5 h-5 text-[#FF6B00] flex-shrink-0" />
-                <a href="tel:+97144000000" className="hover:text-[#FF6B00] transition">+971 4 XXX XXXX</a>
+                <Phone className="w-5 h-5 text-[#DFA154] flex-shrink-0" />
+                <a href="tel:+971544225075" className="hover:text-[#DFA154] transition">+971 54 422 5075</a>
               </li>
               <li className="flex items-center gap-3 text-white/70">
-                <Mail className="w-5 h-5 text-[#FF6B00] flex-shrink-0" />
-                <a href="mailto:info@xyproperties.com" className="hover:text-[#FF6B00] transition">info@xyproperties.com</a>
+                <Mail className="w-5 h-5 text-[#DFA154] flex-shrink-0" />
+                <a href="mailto:info@xyprops.com" className="hover:text-[#DFA154] transition">info@xyprops.com</a>
               </li>
             </ul>
             <div className="mt-6 p-4 bg-white/5 rounded-lg border border-white/10">
@@ -113,11 +118,11 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-white/10 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-white/60">
-            <p>&copy; 2024 X & Y Property. All rights reserved.</p>
+            <p>&copy; 2025 NAR Properties. All Rights Reserved.</p>
             <div className="flex gap-6">
-              <Link href="#" className="hover:text-[#FF6B00] transition">Privacy Policy</Link>
-              <Link href="#" className="hover:text-[#FF6B00] transition">Terms & Conditions</Link>
-              <Link href="#" className="hover:text-[#FF6B00] transition">Cookie Policy</Link>
+              <Link href="#" className="hover:text-[#DFA154] transition">Privacy Policy</Link>
+              <Link href="#" className="hover:text-[#DFA154] transition">Terms & Conditions</Link>
+              <Link href="#" className="hover:text-[#DFA154] transition">Cookie Policy</Link>
             </div>
           </div>
         </div>

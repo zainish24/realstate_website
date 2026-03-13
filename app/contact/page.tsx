@@ -30,24 +30,19 @@ export default function Contact() {
       <Navigation />
 
       {/* Hero Section */}
-      <section className="relative min-h-[60vh] flex items-center overflow-hidden mt-24">
+      <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <img
             src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=1920&h=1080&fit=crop"
             alt="Dubai Skyline"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-[#1a1a1a]/85 via-[#1a1a1a]/75 to-[#FF6B00]/60" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#1a1a1a]/85 via-[#1a1a1a]/75 to-[#DFA154]/60" />
         </div>
         
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white">
-          <span className="inline-block px-4 py-2 bg-white/10 backdrop-blur-sm text-sm font-semibold uppercase tracking-wider rounded-full mb-4 border border-white/20">Contact Us</span>
-          <h1 className="text-5xl md:text-6xl font-bold mb-4 leading-tight" style={{fontFamily: 'Playfair Display, serif'}}>
-            Let's Start Your<br />Real Estate Journey
-          </h1>
-          <p className="text-lg md:text-xl text-white/90 max-w-2xl leading-relaxed">
-            Connect with our expert team for personalized guidance and solutions
-          </p>
+        {/* Content */}
+        <div className="relative z-10 text-center text-white px-4 pt-20">
+          <h1 className="text-5xl md:text-6xl font-bold playfair">Contact Us</h1>
         </div>
       </section>
 
@@ -64,7 +59,7 @@ export default function Contact() {
               const Icon = item.icon
               return (
                 <div key={i} className="bg-slate-50 p-6 rounded-2xl hover:shadow-md transition-all">
-                  <div className="w-12 h-12 luxury-gradient rounded-xl flex items-center justify-center mb-4">
+                  <div className="w-12 h-12 bg-gradient-to-br from-[#DFA154] to-[#c88d45] rounded-xl flex items-center justify-center mb-4">
                     <Icon className="w-6 h-6 text-white" />
                   </div>
                   <h3 className="text-lg font-bold text-[#1a1a1a] mb-2" style={{fontFamily: 'Playfair Display, serif'}}>{item.title}</h3>
@@ -82,7 +77,7 @@ export default function Contact() {
           <div className="grid lg:grid-cols-5 gap-8">
             {/* Contact Form */}
             <div className="lg:col-span-3">
-              <span className="inline-block px-4 py-2 bg-[#FF6B00]/10 text-[#FF6B00] text-sm font-semibold uppercase tracking-wider rounded-full mb-3">Get In Touch</span>
+              <span className="inline-block px-4 py-2 bg-[#DFA154]/10 text-[#DFA154] text-sm font-semibold uppercase tracking-wider rounded-full mb-3">Get In Touch</span>
               <h2 className="text-4xl md:text-5xl font-bold text-[#1a1a1a] mb-3" style={{fontFamily: 'Playfair Display, serif'}}>
                 Send Us a Message
               </h2>
@@ -99,7 +94,7 @@ export default function Contact() {
                   </p>
                   <button
                     onClick={() => setFormSubmitted(false)}
-                    className="text-[#FF6B00] font-semibold hover:underline"
+                    className="text-[#DFA154] font-semibold hover:underline"
                   >
                     Send Another Message
                   </button>
@@ -113,7 +108,7 @@ export default function Contact() {
                         type="text"
                         name="name"
                         placeholder="John Doe"
-                        className="w-full rounded-lg px-4 py-3 bg-slate-50 text-[#1a1a1a] placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#FF6B00] transition border border-gray-200"
+                        className="w-full rounded-lg px-4 py-3 bg-slate-50 text-[#1a1a1a] placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#DFA154] transition border border-gray-200"
                         required
                       />
                     </div>
@@ -123,7 +118,7 @@ export default function Contact() {
                         type="email"
                         name="email"
                         placeholder="john@example.com"
-                        className="w-full rounded-lg px-4 py-3 bg-slate-50 text-[#1a1a1a] placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#FF6B00] transition border border-gray-200"
+                        className="w-full rounded-lg px-4 py-3 bg-slate-50 text-[#1a1a1a] placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#DFA154] transition border border-gray-200"
                         required
                       />
                     </div>
@@ -136,12 +131,12 @@ export default function Contact() {
                         type="tel"
                         name="phone"
                         placeholder="+971 50 XXX XXXX"
-                        className="w-full rounded-lg px-4 py-3 bg-slate-50 text-[#1a1a1a] placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#FF6B00] transition border border-gray-200"
+                        className="w-full rounded-lg px-4 py-3 bg-slate-50 text-[#1a1a1a] placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#DFA154] transition border border-gray-200"
                       />
                     </div>
                     <div>
                       <label className="block text-[#1a1a1a] font-semibold mb-2 text-sm">Service Interested</label>
-                      <select name="service" className="w-full rounded-lg px-4 py-3 bg-slate-50 text-[#1a1a1a] focus:outline-none focus:ring-2 focus:ring-[#FF6B00] transition border border-gray-200">
+                      <select name="service" className="w-full rounded-lg px-4 py-3 bg-slate-50 text-[#1a1a1a] focus:outline-none focus:ring-2 focus:ring-[#DFA154] transition border border-gray-200">
                         <option>Select a service</option>
                         <option>Property Sales</option>
                         <option>Leasing Services</option>
@@ -158,14 +153,14 @@ export default function Contact() {
                       name="message"
                       placeholder="Tell us about your real estate needs..."
                       rows={5}
-                      className="w-full rounded-lg px-4 py-3 bg-slate-50 text-[#1a1a1a] placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#FF6B00] transition border border-gray-200"
+                      className="w-full rounded-lg px-4 py-3 bg-slate-50 text-[#1a1a1a] placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#DFA154] transition border border-gray-200"
                       required
                     ></textarea>
                   </div>
 
                   <button
                     type="submit"
-                    className="w-full luxury-gradient text-white px-6 py-3 rounded-lg font-semibold hover:shadow-lg transition-all inline-flex items-center justify-center gap-2"
+                    className="w-full bg-gradient-to-br from-[#DFA154] to-[#c88d45] text-white px-6 py-3 rounded-lg font-semibold hover:shadow-lg transition-all inline-flex items-center justify-center gap-2"
                   >
                     Send Message <Send className="w-4 h-4" />
                   </button>
@@ -176,7 +171,7 @@ export default function Contact() {
             {/* Map & Quick Info */}
             <div className="lg:col-span-2 space-y-6">
               <div>
-                <span className="inline-block px-4 py-2 bg-[#FF6B00]/10 text-[#FF6B00] text-sm font-semibold uppercase tracking-wider rounded-full mb-3">Location</span>
+                <span className="inline-block px-4 py-2 bg-[#DFA154]/10 text-[#DFA154] text-sm font-semibold uppercase tracking-wider rounded-full mb-3">Location</span>
                 <h3 className="text-2xl font-bold text-[#1a1a1a] mb-4" style={{fontFamily: 'Playfair Display, serif'}}>
                   Find Us Here
                 </h3>
@@ -202,7 +197,7 @@ export default function Contact() {
                 </h3>
                 <div className="space-y-3">
                   <a href="tel:+97144000000" className="flex items-center gap-4 p-4 bg-white/10 rounded-xl hover:bg-white/20 transition-all">
-                    <div className="w-10 h-10 luxury-gradient rounded-lg flex items-center justify-center">
+                    <div className="w-10 h-10 bg-gradient-to-br from-[#DFA154] to-[#c88d45] rounded-lg flex items-center justify-center">
                       <Phone className="w-5 h-5 text-white" />
                     </div>
                     <div>
@@ -211,7 +206,7 @@ export default function Contact() {
                     </div>
                   </a>
                   <a href="mailto:info@xyproperties.com" className="flex items-center gap-4 p-4 bg-white/10 rounded-xl hover:bg-white/20 transition-all">
-                    <div className="w-10 h-10 luxury-gradient rounded-lg flex items-center justify-center">
+                    <div className="w-10 h-10 bg-gradient-to-br from-[#DFA154] to-[#c88d45] rounded-lg flex items-center justify-center">
                       <Mail className="w-5 h-5 text-white" />
                     </div>
                     <div>
@@ -220,7 +215,7 @@ export default function Contact() {
                     </div>
                   </a>
                   <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 p-4 bg-white/10 rounded-xl hover:bg-white/20 transition-all">
-                    <div className="w-10 h-10 luxury-gradient rounded-lg flex items-center justify-center">
+                    <div className="w-10 h-10 bg-gradient-to-br from-[#DFA154] to-[#c88d45] rounded-lg flex items-center justify-center">
                       <MapPin className="w-5 h-5 text-white" />
                     </div>
                     <div>
@@ -247,7 +242,7 @@ export default function Contact() {
             </div>
 
             <div>
-              <span className="inline-block px-4 py-2 bg-[#FF6B00]/10 text-[#FF6B00] text-sm font-semibold uppercase tracking-wider rounded-full mb-4">Visit Us</span>
+              <span className="inline-block px-4 py-2 bg-[#DFA154]/10 text-[#DFA154] text-sm font-semibold uppercase tracking-wider rounded-full mb-4">Visit Us</span>
               <h2 className="text-4xl md:text-5xl font-bold text-[#1a1a1a] mb-4 leading-tight" style={{fontFamily: 'Playfair Display, serif'}}>
                 Visit Our Office
               </h2>
@@ -255,10 +250,10 @@ export default function Contact() {
                 Drop by our Dubai office for a face-to-face consultation with our expert team
               </p>
               <div className="flex flex-col sm:flex-row gap-3">
-                <a href="tel:+97144000000" className="luxury-gradient text-white px-8 py-3 rounded-lg font-semibold hover:shadow-lg transition-all inline-flex items-center justify-center gap-2">
+                <a href="tel:+97144000000" className="bg-gradient-to-br from-[#DFA154] to-[#c88d45] text-white px-8 py-3 rounded-lg font-semibold hover:shadow-lg transition-all inline-flex items-center justify-center gap-2">
                   <Phone className="w-4 h-4" /> Call Us Now
                 </a>
-                <a href="mailto:info@xyproperties.com" className="bg-white border-2 border-[#FF6B00] text-[#FF6B00] px-8 py-3 rounded-lg font-semibold hover:bg-[#FF6B00] hover:text-white transition-all inline-flex items-center justify-center gap-2">
+                <a href="mailto:info@xyproperties.com" className="bg-white border-2 border-[#DFA154] text-[#DFA154] px-8 py-3 rounded-lg font-semibold hover:bg-[#DFA154] hover:text-white transition-all inline-flex items-center justify-center gap-2">
                   <Mail className="w-4 h-4" /> Email Us
                 </a>
               </div>

@@ -37,7 +37,7 @@ export function WhatsAppWidget() {
                 <MessageCircle className="w-6 h-6 text-[#25D366]" />
               </div>
               <div>
-                <p className="font-bold">X & Y Property</p>
+                <p className="font-bold">NAR Properties</p>
                 <p className="text-xs text-white/90">Typically replies instantly</p>
               </div>
             </div>

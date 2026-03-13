@@ -2,189 +2,184 @@
 
 import { Navigation } from '@/components/navigation'
 import { Footer } from '@/components/footer'
-import { Mail, Linkedin, ArrowRight, Award, Users, Target, TrendingUp } from 'lucide-react'
-import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Team() {
   const teamMembers = [
     {
-      name: 'Ahmed Al Mansouri',
-      role: 'Founder & CEO',
-      bio: 'Visionary leader with 15+ years transforming Dubai real estate landscape',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=600&fit=crop',
-      specialties: ['Strategic Planning', 'Market Analysis', 'Investment Strategy']
+      name: 'Mohamed Beshir',
+      role: 'General Manager',
+      description: 'With strong leadership and industry expertise, Mohamed Beshir drives operational excellence and ensures every project is executed with precision and integrity.'
     },
     {
-      name: 'Fatima Al-Khaleej',
-      role: 'Head of Sales',
-      bio: 'Award-winning sales expert specializing in luxury properties',
-      image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=500&h=600&fit=crop',
-      specialties: ['Luxury Sales', 'Client Relations', 'Negotiations']
+      name: 'Ali Alkifri',
+      role: 'Senior Property Consultant',
+      description: 'As a Senior Property Consultant, Ali Alkifri excels at matching clients with properties that align perfectly with their lifestyle and investment goals.'
     },
     {
-      name: 'Mohammed Hassan',
-      role: 'Investment Advisor',
-      bio: 'Strategic advisor with proven track record in high-ROI investments',
-      image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&h=600&fit=crop',
-      specialties: ['Investment Advisory', 'Portfolio Analysis', 'Risk Management']
+      name: 'Mazen Al Ashery',
+      role: 'Senior Property Consultant',
+      description: 'As a Senior Property Consultant, Mazen Al Ashery is dedicated to guiding clients toward properties that suit their lifestyle and investment objectives.'
     },
     {
-      name: 'Layla Al Suwaidi',
-      role: 'Property Manager',
-      bio: 'Meticulous manager ensuring optimal property performance',
-      image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500&h=600&fit=crop',
-      specialties: ['Property Management', 'Maintenance', 'Tenant Relations']
+      name: 'Ertisam Rafiq',
+      role: 'Senior Property Consultant',
+      description: 'As a Senior Property Consultant, Ertisam Rafiq is committed to helping clients find properties that perfectly fit their lifestyle and investment goals.'
     },
     {
-      name: 'Hassan Al Neyadi',
-      role: 'Legal Consultant',
-      bio: 'Expert ensuring full RERA compliance and legal protection',
-      image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=500&h=600&fit=crop',
-      specialties: ['Legal Compliance', 'Documentation', 'Contract Review']
+      name: 'Mohammad Al Radaideh',
+      role: 'Senior Property Consultant',
+      description: 'As a Senior Property Consultant, Mohammad Al Radaideh is committed to helping clients find properties that perfectly fit their lifestyle and investment goals.'
     },
     {
-      name: 'Maryam Al Zaabi',
-      role: 'Client Success Manager',
-      bio: 'Dedicated to ensuring exceptional client experiences',
-      image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=500&h=600&fit=crop',
-      specialties: ['Customer Support', 'Problem Solving', 'Follow-up']
-    }
+      name: 'Ahmad Al Jamous',
+      role: 'Senior Property Consultant',
+      description: 'As a Senior Property Consultant, Ahmad Al Jamous is committed to helping clients find properties that perfectly fit their lifestyle and investment goals.'
+    },
+    {
+      name: 'Yolla Hassan',
+      role: 'Senior Property Consultant',
+      description: 'As a Senior Property Consultant, Yolla Hassan is committed to helping clients find properties that perfectly fit their lifestyle and investment goals.'
+    },
+    {
+      name: 'Hanney Dela Cruz',
+      role: 'Marketing Specialist',
+      description: 'As a Marketing Specialist, Hanney Dela Cruz is dedicated to creating effective marketing strategies that showcase properties and connect clients with their ideal homes.'
+    },
+    {
+      name: 'Rawan Al Badawi',
+      role: 'Listing Agent',
+      description: 'As a Listing Agent, Rawan Al Badawi is dedicated to presenting properties in the best light and connecting sellers with the right buyers.'
+    },
+    {
+      name: 'Mai Alisheh',
+      role: 'Listing Agent',
+      description: 'As a Listing Agent, Mai Alisheh is dedicated to presenting properties in the best light and connecting sellers with the right buyers.'
+    },
+    {
+      name: 'Jo Ann Mendoza',
+      role: 'CRM Specialist',
+      description: 'As a CRM Specialist, Jo Ann Mendoza is committed to providing expert guidance and support in property management and client relations.'
+    },
+    {
+      name: 'Ray Caballero',
+      role: 'Human Resource / Admin Support',
+      description: 'As Human Resource/Admin Support, Ray Caballero is committed to ensuring smooth operations and providing effective support to both the team and clients.'
+    },
+
   ]
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-white">
       <Navigation />
 
       {/* Hero Section */}
-      <section className="relative min-h-[60vh] flex items-center overflow-hidden mt-24">
+      <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden">
+        {/* Background Image */}
         <div className="absolute inset-0">
-          <img
+          <Image
             src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=1920&h=1080&fit=crop"
-            alt="Dubai Skyline"
-            className="w-full h-full object-cover"
+            alt="Team"
+            fill
+            className="object-cover"
+            priority
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-[#1a1a1a]/85 via-[#1a1a1a]/75 to-[#FF6B00]/60" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#1a1a1a]/90 via-[#1a1a1a]/80 to-[#DFA154]/70" />
         </div>
-        
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white">
-          <span className="inline-block px-4 py-2 bg-white/10 backdrop-blur-sm text-sm font-semibold uppercase tracking-wider rounded-full mb-4 border border-white/20">Our Team</span>
-          <h1 className="text-5xl md:text-6xl font-bold mb-4 leading-tight" style={{fontFamily: 'Playfair Display, serif'}}>
-            Meet Our Expert<br />Professionals
-          </h1>
-          <p className="text-lg md:text-xl text-white/90 max-w-2xl leading-relaxed">
-            Dedicated team committed to delivering exceptional real estate service
+
+        {/* Content */}
+        <div className="relative z-10 text-center text-white px-4 pt-20">
+          <h1 className="text-5xl md:text-6xl font-bold playfair">Team</h1>
+        </div>
+      </section>
+
+      {/* Team Introduction */}
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h6 className="text-[#DFA154] font-semibold mb-4 tracking-wide">Meet Our Team</h6>
+          <h2 className="text-4xl md:text-5xl font-bold text-[#1a1a1a] playfair mb-6">
+            Teamwork That Turns <span className="text-[#DFA154]">Vision Into Reality</span>
+          </h2>
+          <p className="text-gray-700 text-lg leading-relaxed">
+            At NAR Properties, our success is powered by people — passionate professionals who combine expertise, dedication, and integrity to deliver outstanding results. Together, we work with one goal in mind: to make your real estate journey seamless, rewarding, and stress-free.
           </p>
         </div>
       </section>
 
-      {/* Team Values */}
-      <section className="py-16 bg-white">
+      {/* Team Members Grid */}
+      <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <span className="inline-block px-4 py-2 bg-[#FF6B00]/10 text-[#FF6B00] text-sm font-semibold uppercase tracking-wider rounded-full mb-3">Our Values</span>
-            <h2 className="text-4xl md:text-5xl font-bold text-[#1a1a1a]" style={{fontFamily: 'Playfair Display, serif'}}>
-              What Drives Our Team
-            </h2>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {[
-              { icon: Award, title: 'Excellence', desc: 'Striving for perfection in every interaction' },
-              { icon: Users, title: 'Integrity', desc: 'Building trust through transparency' },
-              { icon: Target, title: 'Innovation', desc: 'Technology-driven modern solutions' },
-              { icon: TrendingUp, title: 'Expertise', desc: 'Deep knowledge and professional excellence' }
-            ].map((item, i) => (
-              <div key={i} className="text-center p-6 bg-slate-50 rounded-2xl hover:shadow-md transition-all">
-                <div className="w-14 h-14 luxury-gradient rounded-xl flex items-center justify-center mx-auto mb-4">
-                  <item.icon className="w-7 h-7 text-white" />
-                </div>
-                <h3 className="text-lg font-bold text-[#1a1a1a] mb-2" style={{fontFamily: 'Playfair Display, serif'}}>{item.title}</h3>
-                <p className="text-sm text-gray-600">{item.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Team Members */}
-      <section className="py-16 bg-slate-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <span className="inline-block px-4 py-2 bg-[#FF6B00]/10 text-[#FF6B00] text-sm font-semibold uppercase tracking-wider rounded-full mb-3">Our Professionals</span>
-            <h2 className="text-4xl md:text-5xl font-bold text-[#1a1a1a]" style={{fontFamily: 'Playfair Display, serif'}}>
-              Leadership & Team
-            </h2>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {teamMembers.map((member, i) => (
-              <div key={i} className="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-all">
-                <div className="relative h-80 overflow-hidden">
-                  <img src={member.image} alt={member.name} className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#1a1a1a] via-[#1a1a1a]/40 to-transparent" />
-                  <div className="absolute bottom-4 left-4 right-4">
-                    <h3 className="text-xl font-bold text-white mb-1" style={{fontFamily: 'Playfair Display, serif'}}>{member.name}</h3>
-                    <p className="text-[#FFA500] font-semibold">{member.role}</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {teamMembers.map((member, index) => (
+              <div 
+                key={index} 
+                className="group relative bg-white rounded-2xl p-8 shadow-md hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-[#DFA154]/50 overflow-hidden"
+              >
+                {/* Decorative Background Element */}
+                <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-[#DFA154]/5 to-transparent rounded-bl-full transform translate-x-8 -translate-y-8 group-hover:scale-150 transition-transform duration-500" />
+                
+                {/* Icon/Initial */}
+                <div className="relative">
+                  <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-[#DFA154] to-[#c88d45] flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-3 transition-all duration-300 shadow-lg">
+                    <span className="text-3xl font-bold text-white playfair">
+                      {member.name.split(' ').map(n => n[0]).join('')}
+                    </span>
                   </div>
-                </div>
-                <div className="p-6">
-                  <p className="text-sm text-gray-600 mb-4 leading-relaxed">{member.bio}</p>
                   
-                  <div className="mb-4">
-                    <p className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2">Specialties</p>
-                    <div className="flex flex-wrap gap-2">
-                      {member.specialties.map((specialty, j) => (
-                        <span key={j} className="bg-[#FF6B00]/10 text-[#FF6B00] rounded-full px-3 py-1 text-xs font-medium">
-                          {specialty}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-
-                  <div className="flex gap-2">
-                    <button className="flex-1 bg-[#FF6B00] text-white rounded-lg p-2 hover:bg-[#FFA500] transition flex items-center justify-center gap-2">
-                      <Mail className="w-4 h-4" />
-                    </button>
-                    <button className="flex-1 bg-[#FFA500] text-white rounded-lg p-2 hover:bg-[#FFD700] transition flex items-center justify-center gap-2">
-                      <Linkedin className="w-4 h-4" />
-                    </button>
-                  </div>
+                  {/* Decorative Line */}
+                  <div className="w-12 h-1 bg-gradient-to-r from-[#DFA154] to-transparent mb-4 group-hover:w-20 transition-all duration-300" />
                 </div>
+
+                {/* Content */}
+                <div className="relative">
+                  <h3 className="text-2xl font-bold text-[#1a1a1a] playfair mb-2 group-hover:text-[#DFA154] transition-colors duration-300">
+                    {member.name}
+                  </h3>
+                  <p className="text-[#DFA154] font-semibold mb-4 text-sm uppercase tracking-wider flex items-center gap-2">
+                    <span className="w-2 h-2 bg-[#DFA154] rounded-full" />
+                    {member.role}
+                  </p>
+                  <p className="text-gray-600 leading-relaxed text-sm">
+                    {member.description}
+                  </p>
+                </div>
+
+                {/* Hover Effect Border */}
+                <div className="absolute inset-0 border-2 border-[#DFA154] rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-8 items-center">
-            <div className="relative">
-              <div className="grid grid-cols-2 gap-3">
-                <img src="https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=300&h=400&fit=crop" alt="Dubai" className="rounded-2xl shadow-lg w-full object-cover" />
-                <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=300&h=400&fit=crop" alt="Skyline" className="rounded-2xl shadow-lg w-full object-cover mt-6" />
-              </div>
-            </div>
+      {/* CTA Section */}
+      <section className="relative py-20 overflow-hidden">
+        {/* Background Image */}
+        <div className="absolute inset-0">
+          <Image
+            src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1920&h=800&fit=crop"
+            alt="Luxury Property"
+            fill
+            className="object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#1a1a1a]/90 via-[#1a1a1a]/80 to-[#DFA154]/70" />
+        </div>
 
-            <div>
-              <span className="inline-block px-4 py-2 bg-[#FF6B00]/10 text-[#FF6B00] text-sm font-semibold uppercase tracking-wider rounded-full mb-4">Join Us</span>
-              <h2 className="text-4xl md:text-5xl font-bold text-[#1a1a1a] mb-4 leading-tight" style={{fontFamily: 'Playfair Display, serif'}}>
-                Ready to Work With Us?
-              </h2>
-              <p className="text-base text-gray-600 mb-6 leading-relaxed">
-                Whether you are looking for career opportunities or need our expert services
-              </p>
-              <div className="flex flex-col sm:flex-row gap-3">
-                <Link href="/contact" className="luxury-gradient text-white px-8 py-3 rounded-lg font-semibold hover:shadow-lg transition-all inline-flex items-center justify-center gap-2">
-                  Contact Us <ArrowRight className="w-4 h-4" />
-                </Link>
-                <Link href="/about" className="bg-white border-2 border-[#FF6B00] text-[#FF6B00] px-8 py-3 rounded-lg font-semibold hover:bg-[#FF6B00] hover:text-white transition-all inline-flex items-center justify-center gap-2">
-                  About Us
-                </Link>
-              </div>
-            </div>
-          </div>
+        {/* Content */}
+        <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
+          <h2 className="text-4xl md:text-5xl font-bold playfair mb-6">
+            Fulfill Your Dreams, Complete <br />
+            <span className="text-[#DFA154]">Your Life with Your Ideal Home.</span>
+          </h2>
+          <p className="text-lg mb-8 text-white/90">
+            Discover properties that perfectly match your lifestyle, whether you're buying, renting, or investing. At NAR Properties, we make finding your dream home simple, transparent, and rewarding.
+          </p>
+          <a 
+            href="/contact" 
+            className="inline-block bg-white text-[#1a1a1a] px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl"
+          >
+            Get Started
+          </a>
         </div>
       </section>
 

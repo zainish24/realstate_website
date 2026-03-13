@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair' })
 
 export const metadata: Metadata = {
-  title: 'X & Y Property - Your Trusted Real Estate Partner in the UAE',
+  title: 'NAR Properties - Your Trusted Real Estate Partner in the UAE',
   description: 'Helping you buy, rent, and invest in properties with confidence. Expert real estate solutions in the UAE.',
   generator: 'v0.app',
   icons: {

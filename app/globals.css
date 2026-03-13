@@ -81,6 +81,9 @@
   body {
     @apply bg-background text-foreground;
   }
+  html, body {
+    overflow-x: hidden;
+  }
 }
 
 @keyframes fadeIn {
@@ -156,6 +159,10 @@
   background: linear-gradient(135deg, #FF6B00 0%, #FFA500 100%);
 }
 
+.playfair {
+  font-family: 'Playfair Display', serif;
+}
+
 .gold-gradient {
   background: linear-gradient(135deg, #FFA500 0%, #FFD700 100%);
 }
@@ -171,4 +178,22 @@
 .property-card:hover {
   transform: translateY(-8px);
   box-shadow: 0 20px 40px rgba(255, 107, 0, 0.2);
+}
+
+/* Infinite scroll animation for developer logos */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 40s linear infinite;
+}
+
+.animate-scroll:hover {
+  animation-play-state: paused;
 }

@@ -1,0 +1,9 @@
+Place your developer logos here:
+- emaar.png
+- damac.png
+- nakheel.png
+- meraas.png
+- aldar.png
+- dubai-properties.png
+
+Recommended size: 200x100px (PNG format with transparent background)
