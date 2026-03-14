@@ -101,7 +101,7 @@ export default function Team() {
             Teamwork That Turns <span className="text-[#DFA154]">Vision Into Reality</span>
           </h2>
           <p className="text-gray-700 text-lg leading-relaxed">
-            At NAR Properties, our success is powered by people — passionate professionals who combine expertise, dedication, and integrity to deliver outstanding results. Together, we work with one goal in mind: to make your real estate journey seamless, rewarding, and stress-free.
+            At Luxury NAR, our success is powered by people — passionate professionals who combine expertise, dedication, and integrity to deliver outstanding results. Together, we work with one goal in mind: to make your real estate journey seamless, rewarding, and stress-free.
           </p>
         </div>
       </section>
@@ -172,7 +172,7 @@ export default function Team() {
             <span className="text-[#DFA154]">Your Life with Your Ideal Home.</span>
           </h2>
           <p className="text-lg mb-8 text-white/90">
-            Discover properties that perfectly match your lifestyle, whether you're buying, renting, or investing. At NAR Properties, we make finding your dream home simple, transparent, and rewarding.
+            Discover properties that perfectly match your lifestyle, whether you're buying, renting, or investing. At Luxury NAR, we make finding your dream home simple, transparent, and rewarding.
           </p>
           <a 
             href="/contact" 

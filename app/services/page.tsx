@@ -14,10 +14,10 @@ export default function Services() {
       title: 'Property Sales',
       image: '/developers/Property-Sales23.jpg',
       content: [
-        "At NAR Properties, we understand that selling or buying a property is more than a financial transaction — it's a life-changing decision. Our property sales service is designed to make that journey effortless, transparent, and rewarding.",
+        "At Luxury NAR, we understand that selling or buying a property is more than a financial transaction — it's a life-changing decision. Our property sales service is designed to make that journey effortless, transparent, and rewarding.",
         "With deep expertise in the UAE real estate market, our dedicated agents guide you through every stage — from property valuation and market analysis to negotiations and final handover. We combine local market knowledge with modern marketing strategies to ensure your property gets maximum exposure and attracts the right buyers.",
         "For buyers, we take the time to understand your preferences, goals, and investment potential, ensuring you find a property that truly meets your expectations. For sellers, our goal is to secure the best possible price in the shortest time frame through strategic listing, professional presentation, and consistent communication.",
-        "At NAR Properties, we don't just close deals — we build relationships. Our commitment to integrity, professionalism, and client satisfaction ensures that your real estate experience is as smooth and successful as possible."
+        "At Luxury NAR, we don't just close deals — we build relationships. Our commitment to integrity, professionalism, and client satisfaction ensures that your real estate experience is as smooth and successful as possible."
       ]
     },
     {
@@ -26,10 +26,10 @@ export default function Services() {
       title: 'Leasing Services',
       image: '/developers/Leasing-Services43.jpg',
       content: [
-        "At NAR Properties, we make the leasing process effortless for both tenants and landlords. Whether you're searching for your next home or managing multiple properties, our leasing services are designed to deliver comfort, confidence, and complete peace of mind.",
+        "At Luxury NAR, we make the leasing process effortless for both tenants and landlords. Whether you're searching for your next home or managing multiple properties, our leasing services are designed to deliver comfort, confidence, and complete peace of mind.",
         "For tenants, we offer a wide selection of properties across the UAE — from stylish apartments to premium villas and commercial spaces. Our team takes the time to understand your needs, preferences, and lifestyle to help you find a property that truly feels like home.",
         "For landlords, we provide end-to-end leasing solutions, including property marketing, tenant screening, contract management, and rent collection. Our goal is to secure reliable tenants quickly and ensure consistent returns on your investment, all while maintaining full transparency and professionalism.",
-        "At NAR Properties, we believe in creating lasting relationships through trust and quality service. Whether you're leasing a single property or managing an entire portfolio, we handle every detail with care — so you can focus on what matters most."
+        "At Luxury NAR, we believe in creating lasting relationships through trust and quality service. Whether you're leasing a single property or managing an entire portfolio, we handle every detail with care — so you can focus on what matters most."
       ]
     },
     {
@@ -38,10 +38,10 @@ export default function Services() {
       title: 'Investment Advisory',
       image: '/developers/Investment-Advisory.webp',
       content: [
-        "At NAR Properties, we empower our clients to make smart, confident, and profitable real estate investment decisions. With a deep understanding of the UAE property market, our team provides expert guidance that turns opportunities into long-term value.",
+        "At Luxury NAR, we empower our clients to make smart, confident, and profitable real estate investment decisions. With a deep understanding of the UAE property market, our team provides expert guidance that turns opportunities into long-term value.",
         "We begin by understanding your goals — whether you're seeking stable rental income, capital appreciation, or portfolio diversification. Using comprehensive market insights and data-driven analysis, we identify high-performing properties and tailor investment strategies that align with your objectives.",
         "Our advisory approach goes beyond transactions; we offer continuous support through market updates, financial analysis, and portfolio optimization. Whether you're a first-time investor or managing multiple assets, we ensure your investments are positioned for sustainable growth.",
-        "At NAR Properties, we believe that success is built on trust, transparency, and expertise. Our mission is to help you invest with clarity and confidence, creating wealth and opportunities that last for generations."
+        "At Luxury NAR, we believe that success is built on trust, transparency, and expertise. Our mission is to help you invest with clarity and confidence, creating wealth and opportunities that last for generations."
       ]
     },
     {
@@ -50,9 +50,9 @@ export default function Services() {
       title: 'Off-Plan Projects',
       image: '/developers/Off-Plan-Projects.jpg',
       content: [
-        "At NAR Properties, we specialize in helping clients explore and invest in the most promising off-plan projects across the UAE. Whether you're a first-time buyer or a seasoned investor, our team provides expert insights and end-to-end support to help you secure properties with exceptional future potential.",
+        "At Luxury NAR, we specialize in helping clients explore and invest in the most promising off-plan projects across the UAE. Whether you're a first-time buyer or a seasoned investor, our team provides expert insights and end-to-end support to help you secure properties with exceptional future potential.",
         "With access to exclusive developer launches and upcoming communities, we guide you through every stage — from project selection and payment planning to handover and investment management. Our strong relationships with top developers ensure that you receive trusted advice, transparent pricing, and priority access to the region's most sought-after developments.",
-        "Investing in off-plan properties offers flexibility, affordability, and strong capital appreciation opportunities. At NAR Properties, we make the process clear, secure, and rewarding — turning your vision of future ownership into a smart and successful reality."
+        "Investing in off-plan properties offers flexibility, affordability, and strong capital appreciation opportunities. At Luxury NAR, we make the process clear, secure, and rewarding — turning your vision of future ownership into a smart and successful reality."
       ]
     },
     {
@@ -61,10 +61,10 @@ export default function Services() {
       title: 'Real Estate Consultancy',
       image: '/developers/Real-Estate-Consultancy-2048x1367.jpg',
       content: [
-        "At NAR Properties, our real estate consultancy services are designed to help clients make informed, strategic, and confident property decisions. With years of experience in the UAE market, we combine local expertise and market intelligence to provide advice that truly adds value.",
+        "At Luxury NAR, our real estate consultancy services are designed to help clients make informed, strategic, and confident property decisions. With years of experience in the UAE market, we combine local expertise and market intelligence to provide advice that truly adds value.",
         "Whether you're planning to buy, sell, invest, or develop, our consultants offer personalized guidance based on real data, market trends, and your specific goals. We take the time to understand your vision and deliver insights that help you achieve long-term success.",
         "From property valuations and feasibility studies to portfolio management and market forecasting, our consultancy solutions are tailored to meet the evolving needs of individuals, investors, and businesses.",
-        "At NAR Properties, we go beyond advice — we become your trusted partner in every decision, ensuring your real estate journey is guided by clarity, confidence, and expertise."
+        "At Luxury NAR, we go beyond advice — we become your trusted partner in every decision, ensuring your real estate journey is guided by clarity, confidence, and expertise."
       ]
     }
   ]
@@ -161,7 +161,7 @@ export default function Services() {
           </h2>
           <p className="text-lg mb-8 text-white/90">
             Discover properties that perfectly match your lifestyle, whether you're buying, renting, or investing. 
-            At NAR Properties, we make finding your dream home simple, transparent, and rewarding.
+            At Luxury NAR, we make finding your dream home simple, transparent, and rewarding.
           </p>
           <Link 
             href="/contact"
@@ -195,13 +195,13 @@ export default function Services() {
                 name: 'Sarah K',
                 location: 'Dubai',
                 image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop',
-                text: "I've worked with several agencies before, but NAR Properties truly stood out with their honesty and deep market knowledge. Highly recommended!"
+                text: "I've worked with several agencies before, but Luxury NAR truly stood out with their honesty and deep market knowledge. Highly recommended!"
               },
               {
                 name: 'Ahmed R',
                 location: 'Abu Dhabi',
                 image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop',
-                text: 'The team at NAR Properties made my first home purchase seamless and stress-free. They guided me through every step with patience and professionalism.'
+                text: 'The team at Luxury NAR made my first home purchase seamless and stress-free. They guided me through every step with patience and professionalism.'
               }
             ].map((testimonial, i) => (
               <div key={i} className="bg-white rounded-2xl p-8 shadow-md hover:shadow-lg transition-all">

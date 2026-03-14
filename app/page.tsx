@@ -78,7 +78,7 @@ export default function HomePage() {
               </h2>
               
               <div className="space-y-4 text-gray-600">
-                <p>At NAR Properties, we believe every client deserves more than just a transaction — they deserve a trusted partner in their real estate journey. With years of experience in the UAE property market, we specialize in delivering seamless solutions for sales, leasing, property management, and investment advisory.</p>
+                <p>At Luxury NAR, we believe every client deserves more than just a transaction — they deserve a trusted partner in their real estate journey. With years of experience in the UAE property market, we specialize in delivering seamless solutions for sales, leasing, property management, and investment advisory.</p>
                 <p>Our mission is simple: to help individuals, families, and businesses find properties that not only meet their needs but also create long-term value.</p>
               </div>
 
@@ -292,7 +292,7 @@ export default function HomePage() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-[#1a1a1a] mb-3" style={{ fontFamily: 'Mulish, sans-serif' }}>Investment Advisory</h3>
-                <p className="text-gray-600 text-sm mb-4">At NAR Properties, we help you invest with confidence. Backed by in-depth market insights and years of experience in the UAE real estate landscape, our advisory team provides strategic guidance to identify high-performing opportunities and build lasting value.</p>
+                <p className="text-gray-600 text-sm mb-4">At Luxury NAR, we help you invest with confidence. Backed by in-depth market insights and years of experience in the UAE real estate landscape, our advisory team provides strategic guidance to identify high-performing opportunities and build lasting value.</p>
                 <div className="flex items-center justify-between">
                   <Link href="/services" className="text-[#DFA154] font-semibold text-sm hover:underline">More Details</Link>
                   <a href="https://wa.link/xr0xmw" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-[#DFA154] text-white flex items-center justify-center hover:bg-[#c88a3d] transition-all">
@@ -319,7 +319,7 @@ export default function HomePage() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-[#1a1a1a] mb-3" style={{ fontFamily: 'Mulish, sans-serif' }}>Off-Plan Projects</h3>
-                <p className="text-gray-600 text-sm mb-4">At NAR Properties, we connect our clients with the most sought-after off-plan developments across the UAE. From early investment opportunities to exclusive project launches, our experts offer comprehensive guidance to help you make informed decisions and maximize future returns.</p>
+                <p className="text-gray-600 text-sm mb-4">At Luxury NAR, we connect our clients with the most sought-after off-plan developments across the UAE. From early investment opportunities to exclusive project launches, our experts offer comprehensive guidance to help you make informed decisions and maximize future returns.</p>
                 <div className="flex items-center justify-between">
                   <Link href="/services" className="text-[#DFA154] font-semibold text-sm hover:underline">More Details</Link>
                   <a href="https://wa.link/xr0xmw" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-[#DFA154] text-white flex items-center justify-center hover:bg-[#c88a3d] transition-all">
@@ -346,7 +346,7 @@ export default function HomePage() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-[#1a1a1a] mb-3" style={{ fontFamily: 'Mulish, sans-serif' }}>Real Estate Consultancy</h3>
-                <p className="text-gray-600 text-sm mb-4">At NAR Properties, we offer expert consultancy services that empower our clients to make strategic, data-driven real estate decisions. With extensive experience in the UAE market, our team blends local insight and market intelligence to deliver guidance that creates real, lasting value.</p>
+                <p className="text-gray-600 text-sm mb-4">At Luxury NAR, we offer expert consultancy services that empower our clients to make strategic, data-driven real estate decisions. With extensive experience in the UAE market, our team blends local insight and market intelligence to deliver guidance that creates real, lasting value.</p>
                 <div className="flex items-center justify-between">
                   <Link href="/services" className="text-[#DFA154] font-semibold text-sm hover:underline">More Details</Link>
                   <a href="https://wa.link/xr0xmw" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-[#DFA154] text-white flex items-center justify-center hover:bg-[#c88a3d] transition-all">
@@ -377,7 +377,7 @@ export default function HomePage() {
               <span className="text-[#DFA154]">Your Life with Your Ideal Home.</span>
             </h2>
             <p className="text-lg text-white/90 mb-8 max-w-2xl mx-auto">
-              Discover properties that perfectly match your lifestyle, whether you're buying, renting, or investing. At NAR Properties, we make finding your dream home simple, transparent, and rewarding.
+              Discover properties that perfectly match your lifestyle, whether you're buying, renting, or investing. At Luxury NAR, we make finding your dream home simple, transparent, and rewarding.
             </p>
             <Link 
               href="/contact" 
@@ -409,7 +409,7 @@ export default function HomePage() {
             <span className="text-[#DFA154]">for a Better Tomorrow.</span>
           </h2>
           <p className="text-lg text-white/80 mb-8 max-w-2xl mx-auto">
-            At NAR Properties, we go beyond helping you find a house — we guide you towards the perfect home or investment that shapes your future. With trusted expertise in the UAE real estate market, our goal is to make your property journey seamless and rewarding.
+            At Luxury NAR, we go beyond helping you find a house — we guide you towards the perfect home or investment that shapes your future. With trusted expertise in the UAE real estate market, our goal is to make your property journey seamless and rewarding.
           </p>
           <Link 
             href="/contact" 
@@ -478,7 +478,7 @@ export default function HomePage() {
                 We Deliver Exceptional Services for Your <span className="text-[#DFA154]">Real Estate Journey</span>
               </h2>
               <p className="text-gray-600">
-                At NAR Properties, we go beyond transactions — we build trust, deliver value, and guide you at every step of your real estate journey in the UAE.
+                At Luxury NAR, we go beyond transactions — we build trust, deliver value, and guide you at every step of your real estate journey in the UAE.
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-4">
@@ -560,7 +560,7 @@ export default function HomePage() {
                 Elevate Your Real Estate Journey <span className="text-[#DFA154]">to the Next Level.</span>
               </h2>
               <p className="text-gray-600">
-                At NAR Properties, we combine expertise, market insight, and personalized service to help you buy, rent, or invest with confidence. From luxury residences to off-plan projects, we make your property journey seamless and rewarding.
+                At Luxury NAR, we combine expertise, market insight, and personalized service to help you buy, rent, or invest with confidence. From luxury residences to off-plan projects, we make your property journey seamless and rewarding.
               </p>
               <Link 
                 href="#booking" 
@@ -624,13 +624,13 @@ export default function HomePage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
             {[
               {
-                text: "I've worked with several agencies before, but NAR Properties truly stood out with their honesty and deep market knowledge. Highly recommended!",
+                text: "I've worked with several agencies before, but Luxury NAR truly stood out with their honesty and deep market knowledge. Highly recommended!",
                 name: 'Sarah K',
                 location: 'Dubai',
                 image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop'
               },
               {
-                text: 'The team at NAR Properties made my first home purchase seamless and stress-free. They guided me through every step with patience and professionalism.',
+                text: 'The team at Luxury NAR made my first home purchase seamless and stress-free. They guided me through every step with patience and professionalism.',
                 name: 'Ahmed R',
                 location: 'Abu Dhabi',
                 image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop'

@@ -37,13 +37,13 @@ export function Footer() {
             <div className="flex items-center gap-3 mb-4">
               <Image 
                 src="/developers/dark.png"
-                alt="NAR Properties Logo"
+                alt="Luxury NAR Logo"
                 width={48}
                 height={48}
                 className="w-12 h-12 object-contain"
               />
               <div>
-                <span className="font-bold text-lg block leading-tight" style={{fontFamily: 'Playfair Display, serif'}}>NAR Properties</span>
+                <span className="font-bold text-lg block leading-tight" style={{fontFamily: 'Playfair Display, serif'}}>Luxury NAR</span>
                 <span className="text-xs text-white/60">Premium Real Estate</span>
               </div>
             </div>
@@ -118,7 +118,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-white/10 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-white/60">
-            <p>&copy; 2025 NAR Properties. All Rights Reserved.</p>
+            <p>&copy; 2025 Luxury NAR. All Rights Reserved.</p>
             <div className="flex gap-6">
               <Link href="#" className="hover:text-[#DFA154] transition">Privacy Policy</Link>
               <Link href="#" className="hover:text-[#DFA154] transition">Terms & Conditions</Link>

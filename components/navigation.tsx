@@ -31,14 +31,14 @@ export function Navigation() {
               <div className="relative">
                 <Image 
                   src="/developers/dark.png"
-                  alt="NAR Properties Logo"
+                  alt="Luxury NAR Logo"
                   width={50}
                   height={50}
                   className="w-12 h-12 object-contain"
                 />
               </div>
               <div>
-                <span className="font-bold text-lg text-white block leading-tight tracking-tight" style={{fontFamily: 'Playfair Display, serif'}}>NAR Properties</span>
+                <span className="font-bold text-lg text-white block leading-tight tracking-tight" style={{fontFamily: 'Playfair Display, serif'}}>Luxury NAR</span>
                 <span className="text-[10px] text-[#DFA154] uppercase tracking-widest font-semibold">Premium Real Estate</span>
               </div>
             </Link>

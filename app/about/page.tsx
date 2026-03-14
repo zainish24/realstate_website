@@ -38,7 +38,7 @@ export default function About() {
                 Crafting Your Real Estate Story <span className="text-[#DFA154]">with Expertise and Care</span>
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed">
-                At NAR Properties, we believe every client deserves more than just a transaction — they deserve a trusted partner in their real estate journey. With years of experience in the UAE property market, we specialize in delivering seamless solutions for sales, leasing, property management, and investment advisory.
+                At Luxury NAR, we believe every client deserves more than just a transaction — they deserve a trusted partner in their real estate journey. With years of experience in the UAE property market, we specialize in delivering seamless solutions for sales, leasing, property management, and investment advisory.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
                 Our mission is simple: to help individuals, families, and businesses find properties that not only meet their needs but also create long-term value.
@@ -97,7 +97,7 @@ export default function About() {
           <div className="text-center mb-16">
             <span className="inline-block px-4 py-2 bg-[#DFA154]/10 text-[#DFA154] text-sm font-semibold uppercase tracking-wider rounded-full mb-4">Our Promise</span>
             <h2 className="text-4xl md:text-5xl font-bold text-[#1a1a1a] leading-tight" style={{fontFamily: 'Playfair Display, serif'}}>
-              Experience Excellence with <br/><span className="text-[#DFA154]">NAR Properties</span>
+              Experience Excellence with <br/><span className="text-[#DFA154]">Luxury NAR</span>
             </h2>
           </div>
 
@@ -106,7 +106,7 @@ export default function About() {
               {
                 icon: Target,
                 title: 'Our Vision',
-                desc: 'To be a trusted leader in the UAE real estate market by delivering innovative, client-focused solutions that shape exceptional communities across Abu Dhabi and Dubai. At NAR Properties, we envision smarter, more sustainable urban living built on transparency, excellence, and long-term value.'
+                desc: 'To be a trusted leader in the UAE real estate market by delivering innovative, client-focused solutions that shape exceptional communities across Abu Dhabi and Dubai. At Luxury NAR, we envision smarter, more sustainable urban living built on transparency, excellence, and long-term value.'
               },
               {
                 icon: Award,
@@ -222,8 +222,8 @@ export default function About() {
 
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              { text: "I've worked with several agencies before, but NAR Properties truly stood out with their honesty and deep market knowledge. Highly recommended!", name: 'Sarah K', location: 'Dubai' },
-              { text: 'The team at NAR Properties made my first home purchase seamless and stress-free. They guided me through every step with patience and professionalism.', name: 'Ahmed R', location: 'Abu Dhabi' },
+              { text: "I've worked with several agencies before, but Luxury NAR truly stood out with their honesty and deep market knowledge. Highly recommended!", name: 'Sarah K', location: 'Dubai' },
+              { text: 'The team at Luxury NAR made my first home purchase seamless and stress-free. They guided me through every step with patience and professionalism.', name: 'Ahmed R', location: 'Abu Dhabi' },
               { text: 'Thanks to their expert investment advice, I was able to secure an off-plan property that perfectly fits my budget and goals. Great experience.', name: 'Mohammed A', location: 'Sharjah' }
             ].map((testimonial, i) => (
               <div key={i} className="bg-white rounded-3xl p-8 hover:shadow-xl transition-all">
