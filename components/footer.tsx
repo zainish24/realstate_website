@@ -96,11 +96,11 @@ export function Footer() {
             <ul className="space-y-4 text-sm">
               <li className="flex items-start gap-3 text-white/70">
                 <MapPin className="w-5 h-5 text-[#DFA154] flex-shrink-0 mt-0.5" />
-                <span>Najda Street, Al Khazna Tower, 702,<br />Abu Dhabi, UAE</span>
+                <span>123 Luxury Tower,<br />Dubai, UAE</span>
               </li>
               <li className="flex items-center gap-3 text-white/70">
                 <Phone className="w-5 h-5 text-[#DFA154] flex-shrink-0" />
-                <a href="tel:+971544225075" className="hover:text-[#DFA154] transition">+971 54 422 5075</a>
+                <a href="tel:+971 50 000 0000" className="hover:text-[#DFA154] transition">+971 54 422 5075</a>
               </li>
               <li className="flex items-center gap-3 text-white/70">
                 <Mail className="w-5 h-5 text-[#DFA154] flex-shrink-0" />

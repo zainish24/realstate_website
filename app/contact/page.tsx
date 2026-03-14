@@ -52,7 +52,7 @@ export default function Contact() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               { icon: MapPin, title: 'Visit Us', text: 'Business Bay\nDubai, UAE' },
-              { icon: Phone, title: 'Call Us', text: '+971 4 XXX XXXX\n+971 50 XXX XXXX' },
+              { icon: Phone, title: 'Call Us', text: '+971 50 000 0000\n+971 50 000 0000' },
               { icon: Mail, title: 'Email Us', text: 'info@luxurynar.com\nsales@luxurynar.com' },
               { icon: Clock, title: 'Working Hours', text: 'Mon-Fri: 9AM - 6PM\nSat: 10AM - 4PM' }
             ].map((item, i) => {
@@ -130,7 +130,7 @@ export default function Contact() {
                       <input
                         type="tel"
                         name="phone"
-                        placeholder="+971 50 XXX XXXX"
+                        placeholder="+971 50 000 0000"
                         className="w-full rounded-lg px-4 py-3 bg-slate-50 text-[#1a1a1a] placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#DFA154] transition border border-gray-200"
                       />
                     </div>
@@ -196,13 +196,13 @@ export default function Contact() {
                   Quick Actions
                 </h3>
                 <div className="space-y-3">
-                  <a href="tel:+97144000000" className="flex items-center gap-4 p-4 bg-white/10 rounded-xl hover:bg-white/20 transition-all">
+                  <a href="tel:+971500000000" className="flex items-center gap-4 p-4 bg-white/10 rounded-xl hover:bg-white/20 transition-all">
                     <div className="w-10 h-10 bg-gradient-to-br from-[#DFA154] to-[#c88d45] rounded-lg flex items-center justify-center">
                       <Phone className="w-5 h-5 text-white" />
                     </div>
                     <div>
                       <p className="text-xs text-white/70 uppercase">Call Now</p>
-                      <p className="font-semibold">+971 4 XXX XXXX</p>
+                      <p className="font-semibold">+971 50 000 0000</p>
                     </div>
                   </a>
                   <a href="mailto:info@luxurynar.com" className="flex items-center gap-4 p-4 bg-white/10 rounded-xl hover:bg-white/20 transition-all">
@@ -220,7 +220,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <p className="text-xs text-white/70 uppercase">Get Directions</p>
-                      <p className="font-semibold">Business Bay, Dubai</p>
+                      <p className="font-semibold">Luxury Tower, Dubai</p>
                     </div>
                   </a>
                 </div>
@@ -250,7 +250,7 @@ export default function Contact() {
                 Drop by our Dubai office for a face-to-face consultation with our expert team
               </p>
               <div className="flex flex-col sm:flex-row gap-3">
-                <a href="tel:+97144000000" className="bg-gradient-to-br from-[#DFA154] to-[#c88d45] text-white px-8 py-3 rounded-lg font-semibold hover:shadow-lg transition-all inline-flex items-center justify-center gap-2">
+                <a href="tel:+971500000000" className="bg-gradient-to-br from-[#DFA154] to-[#c88d45] text-white px-8 py-3 rounded-lg font-semibold hover:shadow-lg transition-all inline-flex items-center justify-center gap-2">
                   <Phone className="w-4 h-4" /> Call Us Now
                 </a>
                 <a href="mailto:info@luxurynar.com" className="bg-white border-2 border-[#DFA154] text-[#DFA154] px-8 py-3 rounded-lg font-semibold hover:bg-[#DFA154] hover:text-white transition-all inline-flex items-center justify-center gap-2">

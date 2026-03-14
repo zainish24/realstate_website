@@ -18,7 +18,7 @@ export default function Booking() {
     e.preventDefault()
     
     const whatsappMessage = `*New Booking Request*%0A%0A*Name:* ${formData.name}%0A*Email:* ${formData.email}%0A*Phone:* ${formData.phone}%0A*Property Type:* ${formData.propertyType}%0A*Date:* ${formData.date}%0A*Message:* ${formData.message}`
-    const whatsappNumber = '923352911193'
+    const whatsappNumber = `971500000000`
     window.open(`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`, '_blank')
     
     alert('Booking request submitted successfully!')

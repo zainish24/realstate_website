@@ -8,7 +8,7 @@ export function WhatsAppWidget() {
   const [message, setMessage] = useState('')
   
   // Replace with your actual WhatsApp number (with country code, no + or spaces)
-  const whatsappNumber = '923352911193' // Pakistan number
+  const whatsappNumber = '971500000000' // Pakistan number
   
   const handleSendMessage = () => {
     if (message.trim()) {

@@ -234,7 +234,7 @@ export default function HomePage() {
                 <p className="text-gray-600 mb-6">Find your perfect home or investment with ease. We connect buyers and sellers across the UAE with transparency and expertise.</p>
                 <div className="flex items-center justify-between">
                   <Link href="/services" className="text-[#DFA154] font-semibold hover:underline">More Details</Link>
-                  <a href="https://wa.link/xr0xmw" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full bg-[#DFA154] text-white flex items-center justify-center hover:bg-[#c88a3d] transition-all">
+                  <a href="https://wa.me/971500000000" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full bg-[#DFA154] text-white flex items-center justify-center hover:bg-[#c88a3d] transition-all">
                     <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 2.09.59 4.13 1.71 5.91L2.5 21.77l4.21-1.12c1.72.95 3.7 1.46 5.73 1.46 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm.04 18.18c-1.66 0-3.29-.45-4.71-1.3l-.34-.2-2.98.8.8-2.94-.22-.36c-.92-1.45-1.41-3.13-1.41-4.87 0-4.81 3.92-8.73 8.73-8.73s8.73 3.92 8.73 8.73-3.92 8.73-8.73 8.73z"/><path d="M16.5 13.2c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.78.97-.96 1.17-.18.2-.36.22-.66.07-1.43-.7-2.53-1.25-3.52-2.38-.27-.3-.52-.65-.77-1.02-.2-.3-.02-.46.15-.61.15-.13.3-.3.45-.45.15-.15.2-.25.3-.42.1-.17.05-.32-.02-.47-.07-.15-.67-1.6-.92-2.2-.24-.57-.48-.5-.67-.5h-.57c-.2 0-.52.07-.8.36-.27.3-1.05 1.02-1.05 2.5s1.07 2.9 1.22 3.1c.15.2 2.1 3.3 5.1 4.5.71.28 1.27.45 1.7.58.71.2 1.36.17 1.87.1.57-.07 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35z"/></svg>
                   </a>
                 </div>
@@ -261,7 +261,7 @@ export default function HomePage() {
                 <p className="text-gray-600 mb-6">From apartments to commercial spaces, we help tenants and landlords achieve hassle-free rental experiences.</p>
                 <div className="flex items-center justify-between">
                   <Link href="/services" className="text-[#DFA154] font-semibold hover:underline">More Details</Link>
-                  <a href="https://wa.link/xr0xmw" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full bg-[#DFA154] text-white flex items-center justify-center hover:bg-[#c88a3d] transition-all">
+                  <a href="https://wa.me/971500000000" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full bg-[#DFA154] text-white flex items-center justify-center hover:bg-[#c88a3d] transition-all">
                     <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 2.09.59 4.13 1.71 5.91L2.5 21.77l4.21-1.12c1.72.95 3.7 1.46 5.73 1.46 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm.04 18.18c-1.66 0-3.29-.45-4.71-1.3l-.34-.2-2.98.8.8-2.94-.22-.36c-.92-1.45-1.41-3.13-1.41-4.87 0-4.81 3.92-8.73 8.73-8.73s8.73 3.92 8.73 8.73-3.92 8.73-8.73 8.73z"/><path d="M16.5 13.2c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.78.97-.96 1.17-.18.2-.36.22-.66.07-1.43-.7-2.53-1.25-3.52-2.38-.27-.3-.52-.65-.77-1.02-.2-.3-.02-.46.15-.61.15-.13.3-.3.45-.45.15-.15.2-.25.3-.42.1-.17.05-.32-.02-.47-.07-.15-.67-1.6-.92-2.2-.24-.57-.48-.5-.67-.5h-.57c-.2 0-.52.07-.8.36-.27.3-1.05 1.02-1.05 2.5s1.07 2.9 1.22 3.1c.15.2 2.1 3.3 5.1 4.5.71.28 1.27.45 1.7.58.71.2 1.36.17 1.87.1.57-.07 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35z"/></svg>
                   </a>
                 </div>
@@ -295,7 +295,7 @@ export default function HomePage() {
                 <p className="text-gray-600 text-sm mb-4">At Luxury NAR, we help you invest with confidence. Backed by in-depth market insights and years of experience in the UAE real estate landscape, our advisory team provides strategic guidance to identify high-performing opportunities and build lasting value.</p>
                 <div className="flex items-center justify-between">
                   <Link href="/services" className="text-[#DFA154] font-semibold text-sm hover:underline">More Details</Link>
-                  <a href="https://wa.link/xr0xmw" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-[#DFA154] text-white flex items-center justify-center hover:bg-[#c88a3d] transition-all">
+                  <a href="https://wa.me/971500000000" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-[#DFA154] text-white flex items-center justify-center hover:bg-[#c88a3d] transition-all">
                     <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 2.09.59 4.13 1.71 5.91L2.5 21.77l4.21-1.12c1.72.95 3.7 1.46 5.73 1.46 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm.04 18.18c-1.66 0-3.29-.45-4.71-1.3l-.34-.2-2.98.8.8-2.94-.22-.36c-.92-1.45-1.41-3.13-1.41-4.87 0-4.81 3.92-8.73 8.73-8.73s8.73 3.92 8.73 8.73-3.92 8.73-8.73 8.73z"/><path d="M16.5 13.2c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.78.97-.96 1.17-.18.2-.36.22-.66.07-1.43-.7-2.53-1.25-3.52-2.38-.27-.3-.52-.65-.77-1.02-.2-.3-.02-.46.15-.61.15-.13.3-.3.45-.45.15-.15.2-.25.3-.42.1-.17.05-.32-.02-.47-.07-.15-.67-1.6-.92-2.2-.24-.57-.48-.5-.67-.5h-.57c-.2 0-.52.07-.8.36-.27.3-1.05 1.02-1.05 2.5s1.07 2.9 1.22 3.1c.15.2 2.1 3.3 5.1 4.5.71.28 1.27.45 1.7.58.71.2 1.36.17 1.87.1.57-.07 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35z"/></svg>
                   </a>
                 </div>
@@ -322,7 +322,7 @@ export default function HomePage() {
                 <p className="text-gray-600 text-sm mb-4">At Luxury NAR, we connect our clients with the most sought-after off-plan developments across the UAE. From early investment opportunities to exclusive project launches, our experts offer comprehensive guidance to help you make informed decisions and maximize future returns.</p>
                 <div className="flex items-center justify-between">
                   <Link href="/services" className="text-[#DFA154] font-semibold text-sm hover:underline">More Details</Link>
-                  <a href="https://wa.link/xr0xmw" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-[#DFA154] text-white flex items-center justify-center hover:bg-[#c88a3d] transition-all">
+                  <a href="https://wa.me/971500000000" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-[#DFA154] text-white flex items-center justify-center hover:bg-[#c88a3d] transition-all">
                     <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 2.09.59 4.13 1.71 5.91L2.5 21.77l4.21-1.12c1.72.95 3.7 1.46 5.73 1.46 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm.04 18.18c-1.66 0-3.29-.45-4.71-1.3l-.34-.2-2.98.8.8-2.94-.22-.36c-.92-1.45-1.41-3.13-1.41-4.87 0-4.81 3.92-8.73 8.73-8.73s8.73 3.92 8.73 8.73-3.92 8.73-8.73 8.73z"/><path d="M16.5 13.2c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.78.97-.96 1.17-.18.2-.36.22-.66.07-1.43-.7-2.53-1.25-3.52-2.38-.27-.3-.52-.65-.77-1.02-.2-.3-.02-.46.15-.61.15-.13.3-.3.45-.45.15-.15.2-.25.3-.42.1-.17.05-.32-.02-.47-.07-.15-.67-1.6-.92-2.2-.24-.57-.48-.5-.67-.5h-.57c-.2 0-.52.07-.8.36-.27.3-1.05 1.02-1.05 2.5s1.07 2.9 1.22 3.1c.15.2 2.1 3.3 5.1 4.5.71.28 1.27.45 1.7.58.71.2 1.36.17 1.87.1.57-.07 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35z"/></svg>
                   </a>
                 </div>
@@ -349,7 +349,7 @@ export default function HomePage() {
                 <p className="text-gray-600 text-sm mb-4">At Luxury NAR, we offer expert consultancy services that empower our clients to make strategic, data-driven real estate decisions. With extensive experience in the UAE market, our team blends local insight and market intelligence to deliver guidance that creates real, lasting value.</p>
                 <div className="flex items-center justify-between">
                   <Link href="/services" className="text-[#DFA154] font-semibold text-sm hover:underline">More Details</Link>
-                  <a href="https://wa.link/xr0xmw" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-[#DFA154] text-white flex items-center justify-center hover:bg-[#c88a3d] transition-all">
+                  <a href="https://wa.me/971500000000" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-[#DFA154] text-white flex items-center justify-center hover:bg-[#c88a3d] transition-all">
                     <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 2.09.59 4.13 1.71 5.91L2.5 21.77l4.21-1.12c1.72.95 3.7 1.46 5.73 1.46 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm.04 18.18c-1.66 0-3.29-.45-4.71-1.3l-.34-.2-2.98.8.8-2.94-.22-.36c-.92-1.45-1.41-3.13-1.41-4.87 0-4.81 3.92-8.73 8.73-8.73s8.73 3.92 8.73 8.73-3.92 8.73-8.73 8.73z"/><path d="M16.5 13.2c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.78.97-.96 1.17-.18.2-.36.22-.66.07-1.43-.7-2.53-1.25-3.52-2.38-.27-.3-.52-.65-.77-1.02-.2-.3-.02-.46.15-.61.15-.13.3-.3.45-.45.15-.15.2-.25.3-.42.1-.17.05-.32-.02-.47-.07-.15-.67-1.6-.92-2.2-.24-.57-.48-.5-.67-.5h-.57c-.2 0-.52.07-.8.36-.27.3-1.05 1.02-1.05 2.5s1.07 2.9 1.22 3.1c.15.2 2.1 3.3 5.1 4.5.71.28 1.27.45 1.7.58.71.2 1.36.17 1.87.1.57-.07 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35z"/></svg>
                   </a>
                 </div>
@@ -450,7 +450,7 @@ export default function HomePage() {
                   <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
                     <h3 className="text-xl font-bold mb-3" style={{ fontFamily: 'Mulish, sans-serif' }}>{item.title}</h3>
                     <a 
-                      href="tel:+971544225075" 
+                      href="tel:+971500000000" 
                       className="inline-flex items-center px-5 py-2 bg-[#DFA154] text-white font-semibold rounded-md hover:bg-[#c88a3d] transition-all"
                     >
                       Call Now
