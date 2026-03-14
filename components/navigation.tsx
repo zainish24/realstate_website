@@ -39,7 +39,7 @@ export function Navigation() {
               </div>
               <div>
                 <span className="font-bold text-lg text-white block leading-tight tracking-tight" style={{fontFamily: 'Playfair Display, serif'}}>Luxury NAR</span>
-                <span className="text-[10px] text-[#DFA154] uppercase tracking-widest font-semibold">Premium Real Estate</span>
+                <span className="text-[10px] text-[#DFA154] uppercase tracking-widest font-semibold">Luxury Real Estate</span>
               </div>
             </Link>
 

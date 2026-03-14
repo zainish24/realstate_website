@@ -53,7 +53,7 @@ export default function Contact() {
             {[
               { icon: MapPin, title: 'Visit Us', text: 'Business Bay\nDubai, UAE' },
               { icon: Phone, title: 'Call Us', text: '+971 4 XXX XXXX\n+971 50 XXX XXXX' },
-              { icon: Mail, title: 'Email Us', text: 'info@xyproperties.com\nsales@xyproperties.com' },
+              { icon: Mail, title: 'Email Us', text: 'info@luxurynar.com\nsales@luxurynar.com' },
               { icon: Clock, title: 'Working Hours', text: 'Mon-Fri: 9AM - 6PM\nSat: 10AM - 4PM' }
             ].map((item, i) => {
               const Icon = item.icon
@@ -205,13 +205,13 @@ export default function Contact() {
                       <p className="font-semibold">+971 4 XXX XXXX</p>
                     </div>
                   </a>
-                  <a href="mailto:info@xyproperties.com" className="flex items-center gap-4 p-4 bg-white/10 rounded-xl hover:bg-white/20 transition-all">
+                  <a href="mailto:info@luxurynar.com" className="flex items-center gap-4 p-4 bg-white/10 rounded-xl hover:bg-white/20 transition-all">
                     <div className="w-10 h-10 bg-gradient-to-br from-[#DFA154] to-[#c88d45] rounded-lg flex items-center justify-center">
                       <Mail className="w-5 h-5 text-white" />
                     </div>
                     <div>
                       <p className="text-xs text-white/70 uppercase">Email Us</p>
-                      <p className="font-semibold">info@xyproperties.com</p>
+                      <p className="font-semibold">info@luxurynar.com</p>
                     </div>
                   </a>
                   <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 p-4 bg-white/10 rounded-xl hover:bg-white/20 transition-all">
@@ -253,7 +253,7 @@ export default function Contact() {
                 <a href="tel:+97144000000" className="bg-gradient-to-br from-[#DFA154] to-[#c88d45] text-white px-8 py-3 rounded-lg font-semibold hover:shadow-lg transition-all inline-flex items-center justify-center gap-2">
                   <Phone className="w-4 h-4" /> Call Us Now
                 </a>
-                <a href="mailto:info@xyproperties.com" className="bg-white border-2 border-[#DFA154] text-[#DFA154] px-8 py-3 rounded-lg font-semibold hover:bg-[#DFA154] hover:text-white transition-all inline-flex items-center justify-center gap-2">
+                <a href="mailto:info@luxurynar.com" className="bg-white border-2 border-[#DFA154] text-[#DFA154] px-8 py-3 rounded-lg font-semibold hover:bg-[#DFA154] hover:text-white transition-all inline-flex items-center justify-center gap-2">
                   <Mail className="w-4 h-4" /> Email Us
                 </a>
               </div>

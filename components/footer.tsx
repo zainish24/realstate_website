@@ -44,7 +44,7 @@ export function Footer() {
               />
               <div>
                 <span className="font-bold text-lg block leading-tight" style={{fontFamily: 'Playfair Display, serif'}}>Luxury NAR</span>
-                <span className="text-xs text-white/60">Premium Real Estate</span>
+                <span className="text-xs text-white/60">Luxury Real Estate</span>
               </div>
             </div>
             <p className="text-white/70 text-sm mb-6 leading-relaxed">
@@ -104,7 +104,7 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-3 text-white/70">
                 <Mail className="w-5 h-5 text-[#DFA154] flex-shrink-0" />
-                <a href="mailto:info@xyprops.com" className="hover:text-[#DFA154] transition">info@xyprops.com</a>
+                <a href="mailto:info@luxurynar.com" className="hover:text-[#DFA154] transition">info@luxurynar.com</a>
               </li>
             </ul>
             <div className="mt-6 p-4 bg-white/5 rounded-lg border border-white/10">
