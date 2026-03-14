@@ -36,7 +36,7 @@ export function Footer() {
           <div className="md:col-span-1">
             <div className="flex items-center gap-3 mb-4">
               <Image 
-                src="/developers/dark.png"
+                src="/developers/1.png"
                 alt="Luxury NAR Logo"
                 width={48}
                 height={48}
@@ -100,7 +100,7 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-3 text-white/70">
                 <Phone className="w-5 h-5 text-[#DFA154] flex-shrink-0" />
-                <a href="tel:+971 50 000 0000" className="hover:text-[#DFA154] transition">+971 54 422 5075</a>
+                <a href="tel:+971500000000" className="hover:text-[#DFA154] transition">+971 50 000 0000</a>
               </li>
               <li className="flex items-center gap-3 text-white/70">
                 <Mail className="w-5 h-5 text-[#DFA154] flex-shrink-0" />
