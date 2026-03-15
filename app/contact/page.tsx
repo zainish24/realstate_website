@@ -51,9 +51,9 @@ export default function Contact() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { icon: MapPin, title: 'Visit Us', text: 'Business Bay\nDubai, UAE' },
-              { icon: Phone, title: 'Call Us', text: '+971 50 000 0000\n+971 50 000 0000' },
-              { icon: Mail, title: 'Email Us', text: 'info@luxurynar.com\nsales@luxurynar.com' },
+              { icon: MapPin, title: 'Visit Us', text: 'Yasat Tower, Najda Street\n6th Floor, Office 631\nAbu Dhabi, UAE' },
+              { icon: Phone, title: 'Call Us', text: '+971 XX XXX XXXX' },
+              { icon: Mail, title: 'Email Us', text: 'info@narproperties.ae' },
               { icon: Clock, title: 'Working Hours', text: 'Mon-Fri: 9AM - 6PM\nSat: 10AM - 4PM' }
             ].map((item, i) => {
               const Icon = item.icon
@@ -179,7 +179,7 @@ export default function Contact() {
                 {/* Map */}
                 <div className="relative rounded-2xl overflow-hidden shadow-lg h-[350px]">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.1739788087!2d55.26395!3d25.186111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f682829c85bf%3A0xa5bbe7ede8423124!2sBusiness%20Bay%2C%20Dubai!5e0!3m2!1sen!2sae!4v1234567890"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3630.871319520281!2d54.36818437356638!3d24.489915059988096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e67383cf339c5%3A0x6fa0a79e0eb62b40!2sAl%20Yasat%20Tower!5e0!3m2!1sen!2s!4v1773574035519!5m2!1sen!2s"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
@@ -196,31 +196,31 @@ export default function Contact() {
                   Quick Actions
                 </h3>
                 <div className="space-y-3">
-                  <a href="tel:+971500000000" className="flex items-center gap-4 p-4 bg-white/10 rounded-xl hover:bg-white/20 transition-all">
+                  <a href="tel:+971XXXXXXXXXX" className="flex items-center gap-4 p-4 bg-white/10 rounded-xl hover:bg-white/20 transition-all">
                     <div className="w-10 h-10 bg-gradient-to-br from-[#DFA154] to-[#c88d45] rounded-lg flex items-center justify-center">
                       <Phone className="w-5 h-5 text-white" />
                     </div>
                     <div>
                       <p className="text-xs text-white/70 uppercase">Call Now</p>
-                      <p className="font-semibold">+971 50 000 0000</p>
+                      <p className="font-semibold">+971 XX XXX XXXX</p>
                     </div>
                   </a>
-                  <a href="mailto:info@luxurynar.com" className="flex items-center gap-4 p-4 bg-white/10 rounded-xl hover:bg-white/20 transition-all">
+                  <a href="mailto:info@narproperties.ae" className="flex items-center gap-4 p-4 bg-white/10 rounded-xl hover:bg-white/20 transition-all">
                     <div className="w-10 h-10 bg-gradient-to-br from-[#DFA154] to-[#c88d45] rounded-lg flex items-center justify-center">
                       <Mail className="w-5 h-5 text-white" />
                     </div>
                     <div>
                       <p className="text-xs text-white/70 uppercase">Email Us</p>
-                      <p className="font-semibold">info@luxurynar.com</p>
+                      <p className="font-semibold">info@narproperties.ae</p>
                     </div>
                   </a>
-                  <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 p-4 bg-white/10 rounded-xl hover:bg-white/20 transition-all">
+                  <a href="https://maps.google.com/?q=Yasat+Tower+Najda+Street+Abu+Dhabi" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 p-4 bg-white/10 rounded-xl hover:bg-white/20 transition-all">
                     <div className="w-10 h-10 bg-gradient-to-br from-[#DFA154] to-[#c88d45] rounded-lg flex items-center justify-center">
                       <MapPin className="w-5 h-5 text-white" />
                     </div>
                     <div>
                       <p className="text-xs text-white/70 uppercase">Get Directions</p>
-                      <p className="font-semibold">Luxury Tower, Dubai</p>
+                      <p className="font-semibold">Yasat Tower, Abu Dhabi</p>
                     </div>
                   </a>
                 </div>
@@ -247,13 +247,13 @@ export default function Contact() {
                 Visit Our Office
               </h2>
               <p className="text-base text-gray-600 mb-6 leading-relaxed">
-                Drop by our Dubai office for a face-to-face consultation with our expert team
+                Drop by our Abu Dhabi office for a face-to-face consultation with our expert team
               </p>
               <div className="flex flex-col sm:flex-row gap-3">
-                <a href="tel:+971500000000" className="bg-gradient-to-br from-[#DFA154] to-[#c88d45] text-white px-8 py-3 rounded-lg font-semibold hover:shadow-lg transition-all inline-flex items-center justify-center gap-2">
+                <a href="tel:+971XXXXXXXXXX" className="bg-gradient-to-br from-[#DFA154] to-[#c88d45] text-white px-8 py-3 rounded-lg font-semibold hover:shadow-lg transition-all inline-flex items-center justify-center gap-2">
                   <Phone className="w-4 h-4" /> Call Us Now
                 </a>
-                <a href="mailto:info@luxurynar.com" className="bg-white border-2 border-[#DFA154] text-[#DFA154] px-8 py-3 rounded-lg font-semibold hover:bg-[#DFA154] hover:text-white transition-all inline-flex items-center justify-center gap-2">
+                <a href="mailto:info@narproperties.ae" className="bg-white border-2 border-[#DFA154] text-[#DFA154] px-8 py-3 rounded-lg font-semibold hover:bg-[#DFA154] hover:text-white transition-all inline-flex items-center justify-center gap-2">
                   <Mail className="w-4 h-4" /> Email Us
                 </a>
               </div>

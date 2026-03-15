@@ -36,15 +36,15 @@ export function Footer() {
           <div className="md:col-span-1">
             <div className="flex items-center gap-3 mb-4">
               <Image 
-                src="/developers/1.png"
-                alt="Luxury NAR Logo"
+                src="/developers/dark.png"
+                alt="NAR Properties Logo"
                 width={48}
                 height={48}
                 className="w-12 h-12 object-contain"
               />
               <div>
-                <span className="font-bold text-lg block leading-tight" style={{fontFamily: 'Playfair Display, serif'}}>Luxury NAR</span>
-                <span className="text-xs text-white/60">Luxury Real Estate</span>
+                <span className="font-bold text-lg block leading-tight" style={{fontFamily: 'Playfair Display, serif'}}>NAR Properties</span>
+                <span className="text-xs text-white/60">Premium Real Estate</span>
               </div>
             </div>
             <p className="text-white/70 text-sm mb-6 leading-relaxed">
@@ -96,15 +96,15 @@ export function Footer() {
             <ul className="space-y-4 text-sm">
               <li className="flex items-start gap-3 text-white/70">
                 <MapPin className="w-5 h-5 text-[#DFA154] flex-shrink-0 mt-0.5" />
-                <span>123 Luxury Tower,<br />Dubai, UAE</span>
+                <span>Yasat Tower, Najda Street,<br />6th Floor, Office 631,<br />Abu Dhabi, UAE</span>
               </li>
               <li className="flex items-center gap-3 text-white/70">
                 <Phone className="w-5 h-5 text-[#DFA154] flex-shrink-0" />
-                <a href="tel:+971500000000" className="hover:text-[#DFA154] transition">+971 50 000 0000</a>
+                <a href="tel:+971XXXXXXXXXX" className="hover:text-[#DFA154] transition">+971 XX XXX XXXX</a>
               </li>
               <li className="flex items-center gap-3 text-white/70">
                 <Mail className="w-5 h-5 text-[#DFA154] flex-shrink-0" />
-                <a href="mailto:info@luxurynar.com" className="hover:text-[#DFA154] transition">info@luxurynar.com</a>
+                <a href="mailto:info@narproperties.ae" className="hover:text-[#DFA154] transition">info@narproperties.ae</a>
               </li>
             </ul>
             <div className="mt-6 p-4 bg-white/5 rounded-lg border border-white/10">
@@ -118,7 +118,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-white/10 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-white/60">
-            <p>&copy; 2025 Luxury NAR. All Rights Reserved.</p>
+            <p>&copy; 2025 NAR Properties. All Rights Reserved.</p>
             <div className="flex gap-6">
               <Link href="#" className="hover:text-[#DFA154] transition">Privacy Policy</Link>
               <Link href="#" className="hover:text-[#DFA154] transition">Terms & Conditions</Link>

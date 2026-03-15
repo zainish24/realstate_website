@@ -135,6 +135,98 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* CEO Section */}
+      <section className="py-20 bg-[#1a1a1a] overflow-hidden">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            
+            {/* Image Side */}
+            <div className="relative flex justify-center">
+              <div className="relative w-72 h-96 md:w-96 md:h-[500px]">
+                {/* Gold border frame */}
+                <div className="absolute -top-4 -left-4 w-full h-full border-2 border-[#DFA154] rounded-2xl" />
+                <div className="relative w-full h-full rounded-2xl overflow-hidden shadow-2xl">
+                  <Image
+                    src="/images/developers/ceo.jfif"
+                    alt="Muddasir Ahmed - CEO & Founder"
+                    fill
+                    className="object-cover"
+                  />
+                  {/* Bottom gradient overlay */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+                  {/* Name tag on image */}
+                  <div className="absolute bottom-6 left-6 right-6">
+                    <div className="bg-[#DFA154] px-4 py-2 rounded-lg inline-block">
+                      <p className="text-white font-bold text-sm uppercase tracking-widest">CEO & Founder</p>
+                    </div>
+                  </div>
+                </div>
+                {/* Decorative dots */}
+                <div className="absolute -bottom-6 -right-6 w-24 h-24 grid grid-cols-4 gap-1.5 opacity-30">
+                  {[...Array(16)].map((_, i) => (
+                    <div key={i} className="w-1.5 h-1.5 rounded-full bg-[#DFA154]" />
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            {/* Text Side */}
+            <div className="space-y-6 text-white">
+              <div>
+                <p className="text-[#DFA154] font-semibold uppercase tracking-widest text-sm mb-3">Meet Our Leader</p>
+                <h2 className="text-4xl md:text-5xl font-bold leading-tight" style={{ fontFamily: 'Playfair Display, serif' }}>
+                  Muddasir <span className="text-[#DFA154]">Ahmed</span>
+                </h2>
+                <p className="text-white/60 text-lg mt-2">CEO & Founder — Luxury NAR Real Estate</p>
+              </div>
+
+              <div className="w-16 h-1 bg-[#DFA154]" />
+
+              <p className="text-white/80 text-lg leading-relaxed">
+                With a visionary mindset and deep-rooted expertise in the UAE real estate market, Muddasir Ahmed founded Luxury NAR Real Estate with one mission — to redefine the property experience for every client.
+              </p>
+              <p className="text-white/70 leading-relaxed">
+                Under his leadership, the company has grown into a trusted name in Abu Dhabi, delivering exceptional results in sales, leasing, investment advisory, and off-plan projects.
+              </p>
+
+              {/* Stats */}
+              <div className="grid grid-cols-3 gap-6 pt-4">
+                <div className="text-center border border-white/10 rounded-xl p-4">
+                  <p className="text-3xl font-bold text-[#DFA154]">270+</p>
+                  <p className="text-white/60 text-xs mt-1">Projects Done</p>
+                </div>
+                <div className="text-center border border-white/10 rounded-xl p-4">
+                  <p className="text-3xl font-bold text-[#DFA154]">10+</p>
+                  <p className="text-white/60 text-xs mt-1">Years Experience</p>
+                </div>
+                <div className="text-center border border-white/10 rounded-xl p-4">
+                  <p className="text-3xl font-bold text-[#DFA154]">500+</p>
+                  <p className="text-white/60 text-xs mt-1">Happy Clients</p>
+                </div>
+              </div>
+
+              {/* Location */}
+              <div className="flex items-center gap-3 text-white/60 text-sm">
+                <div className="w-8 h-8 rounded-full bg-[#DFA154] flex items-center justify-center flex-shrink-0">
+                  <svg className="w-4 h-4" fill="none" stroke="white" strokeWidth="2" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                  </svg>
+                </div>
+                <span>Yasat Tower, Najda Street, 6th Floor, Office 631, Abu Dhabi, UAE</span>
+              </div>
+
+              <Link
+                href="/team"
+                className="inline-flex items-center gap-2 px-8 py-3 bg-[#DFA154] text-white font-semibold rounded-md hover:bg-[#c88a3d] transition-all"
+              >
+                Meet The Full Team
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Developers Section - Exact match from HTML */}
       <section className="py-20 bg-gray-50 overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -360,7 +452,7 @@ export default function HomePage() {
       </section>
 
       {/* Banner Section */}
-      <section className="relative py-32 bg-gray-900 overflow-hidden mb-20">
+      <section className="relative py-20 bg-gray-900 overflow-hidden">
         <div className="absolute inset-0">
           <Image 
             src="/developers/full fill your dream.avif"
@@ -389,84 +481,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Background Video Section with Cards Attached */}
-      <section className="relative py-32 overflow-visible" style={{ zIndex: 10 }}>
-        {/* Video Background */}
-        <div className="absolute inset-0">
-          <iframe
-            className="absolute inset-0 w-full h-full object-cover"
-            src={backgroundVideoUrl}
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            style={{ pointerEvents: 'none', border: 'none' }}
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/50 to-black/60" />
-        </div>
-
-        {/* Content */}
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-tight" style={{ fontFamily: 'Mulish, sans-serif' }}>
-            Crafting Your Ideal Home <br />
-            <span className="text-[#DFA154]">for a Better Tomorrow.</span>
-          </h2>
-          <p className="text-lg text-white/80 mb-8 max-w-2xl mx-auto">
-            At Luxury NAR, we go beyond helping you find a house — we guide you towards the perfect home or investment that shapes your future. With trusted expertise in the UAE real estate market, our goal is to make your property journey seamless and rewarding.
-          </p>
-          <Link 
-            href="/contact" 
-            className="inline-flex items-center px-8 py-3 bg-[#DFA154] text-white font-semibold rounded-md hover:bg-[#c88a3d] transition-all"
-          >
-            Get Started
-          </Link>
-        </div>
-
-        {/* Cards - Attached to bottom of video section */}
-        <div className="absolute -bottom-32 md:-bottom-48 left-0 right-0 transform" style={{ zIndex: 1000 }}>
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
-              {[
-                {
-                  bg: '/developers/last sec 1.jpg',
-                  title: 'Selecting The Right Location'
-                },
-                {
-                  bg: '/developers/last sec 2.jpg',
-                  title: 'Free Consultations with expert'
-                },
-                {
-                  bg: '/developers/last sec 3.jpg',
-                  title: 'And Experience the Comfort'
-                }
-              ].map((item, index) => (
-                <div key={index} className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-2xl hover:shadow-3xl cursor-pointer border-4 border-white transition-all duration-500 hover:-translate-y-2" style={{ backgroundColor: 'white', zIndex: 1001, position: 'relative' }}>
-                  <div className="absolute inset-0">
-                    <Image 
-                      src={item.bg}
-                      alt={`CTA ${index + 1}`}
-                      fill
-                      className="object-cover group-hover:scale-110 transition-transform duration-700"
-                    />
-                  </div>
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
-                  <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                    <h3 className="text-xl font-bold mb-3" style={{ fontFamily: 'Mulish, sans-serif' }}>{item.title}</h3>
-                    <a 
-                      href="tel:+971500000000" 
-                      className="inline-flex items-center px-5 py-2 bg-[#DFA154] text-white font-semibold rounded-md hover:bg-[#c88a3d] transition-all"
-                    >
-                      Call Now
-                    </a>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Spacing section for overlapping cards */}
-      <section className="pt-32 md:pt-48 pb-20 bg-white" style={{ position: 'relative', zIndex: 1 }}>
-        {/* This provides space for the overlapping cards */}
-      </section>
 
       {/* Why Choose Us */}
       <section className="py-20 bg-white" style={{ position: 'relative', zIndex: 1 }}>
@@ -484,28 +498,45 @@ export default function HomePage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-4">
                 {[
                   {
-                    icon: '📄',
+                    icon: (
+                      <svg className="w-6 h-6" fill="none" stroke="white" strokeWidth="2" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                      </svg>
+                    ),
                     title: 'Affordable Solutions',
                     desc: 'Tailored property options to match your lifestyle and budget without compromising on quality.'
                   },
                   {
-                    icon: '📍',
+                    icon: (
+                      <svg className="w-6 h-6" fill="none" stroke="white" strokeWidth="2" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                      </svg>
+                    ),
                     title: 'Optimal Location',
                     desc: 'Access to the most desirable residential and commercial properties across Abu Dhabi and the UAE.'
                   },
                   {
-                    icon: '🤝',
+                    icon: (
+                      <svg className="w-6 h-6" fill="none" stroke="white" strokeWidth="2" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
+                      </svg>
+                    ),
                     title: 'Reliable and Trusted',
                     desc: 'A reputation built on transparency, integrity, and long-term client relationships.'
                   },
                   {
-                    icon: '🏆',
+                    icon: (
+                      <svg className="w-6 h-6" fill="none" stroke="white" strokeWidth="2" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+                      </svg>
+                    ),
                     title: 'Certified Agent',
                     desc: 'A professional team with deep market knowledge to ensure smooth sales, leasing, and investment experiences.'
                   }
                 ].map((item, index) => (
                   <div key={index} className="space-y-2">
-                    <div className="w-12 h-12 rounded-full bg-[#DFA154]/10 flex items-center justify-center text-2xl text-[#DFA154]">
+                    <div className="w-12 h-12 rounded-full bg-[#DFA154] flex items-center justify-center">
                       {item.icon}
                     </div>
                     <h3 className="font-bold text-[#1a1a1a]">{item.title}</h3>
@@ -626,20 +657,17 @@ export default function HomePage() {
               {
                 text: "I've worked with several agencies before, but Luxury NAR truly stood out with their honesty and deep market knowledge. Highly recommended!",
                 name: 'Sarah K',
-                location: 'Dubai',
-                image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop'
+                location: 'Dubai'
               },
               {
                 text: 'The team at Luxury NAR made my first home purchase seamless and stress-free. They guided me through every step with patience and professionalism.',
                 name: 'Ahmed R',
-                location: 'Abu Dhabi',
-                image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop'
+                location: 'Abu Dhabi'
               },
               {
                 text: 'Thanks to their expert investment advice, I was able to secure an off-plan property that perfectly fits my budget and goals. Great experience.',
                 name: 'Mohammed A',
-                location: 'Sharjah',
-                image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop'
+                location: 'Sharjah'
               }
             ].map((testimonial, index) => (
               <div key={index} className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all">
@@ -650,14 +678,8 @@ export default function HomePage() {
                 </div>
                 <p className="text-gray-700 mb-8 text-lg italic">"{testimonial.text}"</p>
                 <div className="flex items-center gap-4">
-                  <div className="w-16 h-16 rounded-full overflow-hidden bg-[#DFA154]/10">
-                    <Image 
-                      src={testimonial.image}
-                      alt={testimonial.name}
-                      width={64}
-                      height={64}
-                      className="w-full h-full object-cover"
-                    />
+                  <div className="w-12 h-12 rounded-full bg-[#DFA154] flex items-center justify-center text-white font-bold text-lg">
+                    {testimonial.name.charAt(0)}
                   </div>
                   <div>
                     <p className="font-bold text-[#1a1a1a]">{testimonial.name}</p>

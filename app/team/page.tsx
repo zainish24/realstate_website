@@ -5,7 +5,13 @@ import { Footer } from '@/components/footer'
 import Image from 'next/image'
 
 export default function Team() {
-  const teamMembers = [
+  const teamMembers: { name: string; role: string; description: string; image?: string }[] = [
+    {
+      name: 'Muddasir Ahmed',
+      role: 'CEO & Founder',
+      image: '/images/developers/ceo.jfif',
+      description: 'As CEO and Founder of Luxury NAR Real Estate, Muddasir Ahmed leads the company with a visionary approach, deep market expertise, and an unwavering commitment to delivering exceptional real estate experiences across Abu Dhabi and the UAE.'
+    },
     {
       name: 'Mohamed Beshir',
       role: 'General Manager',
@@ -101,7 +107,7 @@ export default function Team() {
             Teamwork That Turns <span className="text-[#DFA154]">Vision Into Reality</span>
           </h2>
           <p className="text-gray-700 text-lg leading-relaxed">
-            At Luxury NAR, our success is powered by people — passionate professionals who combine expertise, dedication, and integrity to deliver outstanding results. Together, we work with one goal in mind: to make your real estate journey seamless, rewarding, and stress-free.
+            At NAR Properties, our success is powered by people — passionate professionals who combine expertise, dedication, and integrity to deliver outstanding results. Together, we work with one goal in mind: to make your real estate journey seamless, rewarding, and stress-free.
           </p>
         </div>
       </section>
@@ -120,10 +126,22 @@ export default function Team() {
                 
                 {/* Icon/Initial */}
                 <div className="relative">
-                  <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-[#DFA154] to-[#c88d45] flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-3 transition-all duration-300 shadow-lg">
-                    <span className="text-3xl font-bold text-white playfair">
-                      {member.name.split(' ').map(n => n[0]).join('')}
-                    </span>
+                  <div className="w-20 h-20 rounded-2xl overflow-hidden mb-6 group-hover:scale-110 transition-all duration-300 shadow-lg">
+                    {member.image ? (
+                      <Image
+                        src={member.image}
+                        alt={member.name}
+                        width={80}
+                        height={80}
+                        className="w-full h-full object-cover"
+                      />
+                    ) : (
+                      <div className="w-full h-full bg-gradient-to-br from-[#DFA154] to-[#c88d45] flex items-center justify-center">
+                        <span className="text-3xl font-bold text-white playfair">
+                          {member.name.split(' ').map(n => n[0]).join('')}
+                        </span>
+                      </div>
+                    )}
                   </div>
                   
                   {/* Decorative Line */}
@@ -172,7 +190,7 @@ export default function Team() {
             <span className="text-[#DFA154]">Your Life with Your Ideal Home.</span>
           </h2>
           <p className="text-lg mb-8 text-white/90">
-            Discover properties that perfectly match your lifestyle, whether you're buying, renting, or investing. At Luxury NAR, we make finding your dream home simple, transparent, and rewarding.
+            Discover properties that perfectly match your lifestyle, whether you're buying, renting, or investing. At NAR Properties, we make finding your dream home simple, transparent, and rewarding.
           </p>
           <a 
             href="/contact" 
